@@ -1,0 +1,42 @@
+-------------------------------------------------------------------------------
+Test set: com.thinkWhy.runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 172, Failures: 1, Errors: 5, Skipped: 0, Time elapsed: 8,468.249 s <<< FAILURE! - in com.thinkWhy.runners.TestRunner
+Creating salary answers preview(Creating salary answers preview)  Time elapsed: 65.813 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: (//*[@class='truncated-text'])[1]' (tried for 20 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//*[@class='truncated-text'])[1]"}
+  (Session info: headless chrome=90.0.4430.85)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'LT-0008', ip: '10.10.1.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\MustafaOzkan\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57448}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: d078097a39ea535ecaa7c87a1db86043
+*** Element info: {Using=xpath, value=(//*[@class='truncated-text'])[1]}
+
+Editing account users organization(Editing account users organization)  Time elapsed: 32.288 s  <<< FAILURE!
+java.lang.AssertionError
+
+Scheduling a meeting on contact us pop up window(Scheduling a meeting on contact us pop up window)  Time elapsed: 66.544 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[contains(text(),'What day is best for you?')]' (tried for 20 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'What day is best for you?')]"}
+  (Session info: headless chrome=90.0.4430.85)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.5', revision: 'd54ebd709a', time: '2018-11-06T11:42:16'
+System info: host: 'LT-0008', ip: '10.10.1.112', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.85, chrome: {chromedriverVersion: 90.0.4430.24 (4c6d850f087da..., userDataDir: C:\Users\MustafaOzkan\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:62735}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e6962f603fe4a1db2dc77137bbc8dad0
+*** Element info: {Using=xpath, value=//span[contains(text(),'What day is best for you?')]}
+
+Creating a benchmarking team by CSV upload function(Creating a benchmarking team by CSV upload function)  Time elapsed: 22.963 s  <<< ERROR!
+java.awt.HeadlessException
+
+Company logo upload function(Company logo upload function)  Time elapsed: 31.097 s  <<< ERROR!
+java.awt.HeadlessException
+
+Account user photo upload(Account user photo upload)  Time elapsed: 23.938 s  <<< ERROR!
+java.awt.HeadlessException
+
